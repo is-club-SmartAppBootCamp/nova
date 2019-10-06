@@ -11,7 +11,7 @@ import com.example.helloworld.DisplayMessageActivity
 
 
 class MainActivity : AppCompatActivity() {
-    val EXTRA_MESSAGE: String = "om.example.helloworld.MESSAGE"
+    val EXTRA_MESSAGE: String = "com.example.helloworld.MESSAGE"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
