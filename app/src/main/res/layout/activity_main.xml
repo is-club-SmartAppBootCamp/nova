@@ -21,8 +21,9 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="28dp"
+        android:onClick="sendMessage"
         android:text="@string/button_send"
         app:layout_constraintStart_toEndOf="@+id/editText"
-        tools:layout_editor_absoluteY="64dp" />
+        tools:layout_editor_absoluteY="62dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
